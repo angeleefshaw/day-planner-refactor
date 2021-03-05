@@ -1,0 +1,30 @@
+
+.save-btn:hover {
+    font-size: 1.1em;
+    background-color: #77dd77;
+    transition: all .3s ease-in-out;
+  }
+  
+  .col-one-content {
+    margin-bottom: 20px;
+  
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  .row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .smll-row {
+    display: flex; 
+    flex-direction: row;
+  }
+
+  .save-item {
+    text-align: center;
+  }
