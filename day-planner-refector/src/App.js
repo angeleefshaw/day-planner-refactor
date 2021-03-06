@@ -12,6 +12,11 @@ function App() {
       <Tasks time="9am"/>
       <Tasks time="10am"/>
       <Tasks time="11am"/>
+      <Tasks time="12am"/>
+      <Tasks time="1pm"/>
+      <Tasks time="2pm"/>
+      <Tasks time="3pm"/>
+      <Tasks time="4pm"/>
     </div>
   )
 }
