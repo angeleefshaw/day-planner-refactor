@@ -28,3 +28,10 @@
   .save-item {
     text-align: center;
   }
+
+  .task-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0 120px;
+
+  }

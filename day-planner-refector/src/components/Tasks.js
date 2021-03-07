@@ -32,11 +32,8 @@ import '../styles/Tasks.css';
               </Col>
             </Form.Row>
             <br></br>
-            <div className="col-10 smll-row">
-              <h3>My Tasks:</h3>
-              <ol> 
-              {taskState}
-              </ol>
+            <div className="col-10 smll-row task-list">
+            {taskState}
             </div>
           </Form>
       </div>

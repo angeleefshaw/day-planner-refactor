@@ -4,11 +4,13 @@ import Tasks from "./components/Tasks"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './styles/App.css';
+import Clock from './components/Clock';
 
 function App() {
   return (
     <div>
       <Header />
+      <Clock/>
       <Tasks time="9am"/>
       <Tasks time="10am"/>
       <Tasks time="11am"/>
