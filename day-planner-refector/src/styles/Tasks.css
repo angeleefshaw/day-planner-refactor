@@ -29,15 +29,27 @@
     text-align: center;
   }
 
+  .task-list-container {
+    padding: 0 120px;
+    height: 150px;
+
+  }
+
   .task-list {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    padding: 0 120px;
-
+    flex-direction: column;
   }
 
   .new-task {
     display: flex;
-    flex-direction: row;
+  }
+
+  .show-btn {
+    padding: 8px;
+    border-radius: 8px;
+    border-style: none;
+    background-color:gray;
+    color: honeydew;
+    font-family:Arial, Helvetica, sans-serif;
   }

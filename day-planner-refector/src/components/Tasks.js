@@ -6,14 +6,16 @@ import '../styles/Tasks.css';
 
  function Tasks(props) {
    const [taskState, setTaskState] = useState([])
+   const [showtasks, setShowTasks] = useState()
    const input = useRef();
 
      function handleSubmit(e) {
        e.preventDefault();
        setTaskState([...taskState, input.current.value]);
-       e.target.reset();
 
+       e.target.reset();
      };
+
 
     return (
       <div className= "tasks">
@@ -30,17 +32,24 @@ import '../styles/Tasks.css';
               </Col>
             </Form.Row>
             <br></br>
-            <div className="col-10 smll-row task-list">
-              <ul className="task-list">
-                {taskState.map((task, b) => (
-                <li className="new-task" li key={b}>{task}</li>
-                ))}
-              </ul>
+            <div>
+              <button className="show-btn" onClick={() =>{setShowTasks({showtasks: !showtasks})}}>{showtasks? 'Hide' : 'Show'} Todo's </button>
+              {showtasks?
+                <div className="col-10 smll-row task-list-container">
+                    <ul className="task-list">
+                      {taskState.map((task, b) => (
+                      <li className="new-task" key={b}>{task}</li>
+                      ))}
+                    </ul>
+                </div>
+              : true}
             </div>
           </Form>
       </div>
     );
   }
+
+
 
 
 export default Tasks;
