@@ -32,7 +32,6 @@
   .task-list-container {
     padding: 0 120px;
     height: 150px;
-
   }
 
   .task-list {
@@ -43,7 +42,8 @@
 
   .new-task {
     display: flex;
-  }
+    margin-bottom: 10px;
+  } 
 
   .show-btn {
     padding: 8px;
