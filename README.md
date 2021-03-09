@@ -15,7 +15,7 @@ Refactoring a Day Planner using Reactjs
   
   [Check it out here!](https://angeleefshaw.github.io/day-planner-refactor/ "Workday planner')
   
-  ![Workout](./dp-img.png)
+  ![Workout](./refactored-code/dp-img.png)
   
   Enter tasks into the input field. Hover over the blue button and click to save the task. Each task will be listed below the input feild. Click "Show Todo's" to reveal all tasks.
 
