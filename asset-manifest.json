@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/day-planner-refactor/static/css/main.bdb7051d.chunk.css",
+    "main.js": "/day-planner-refactor/static/js/main.9f025ac6.chunk.js",
+    "main.js.map": "/day-planner-refactor/static/js/main.9f025ac6.chunk.js.map",
+    "runtime-main.js": "/day-planner-refactor/static/js/runtime-main.0082c511.js",
+    "runtime-main.js.map": "/day-planner-refactor/static/js/runtime-main.0082c511.js.map",
+    "static/css/2.150d169a.chunk.css": "/day-planner-refactor/static/css/2.150d169a.chunk.css",
+    "static/js/2.d98e8be0.chunk.js": "/day-planner-refactor/static/js/2.d98e8be0.chunk.js",
+    "static/js/2.d98e8be0.chunk.js.map": "/day-planner-refactor/static/js/2.d98e8be0.chunk.js.map",
+    "index.html": "/day-planner-refactor/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/day-planner-refactor/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.bdb7051d.chunk.css.map": "/day-planner-refactor/static/css/main.bdb7051d.chunk.css.map",
+    "static/js/2.d98e8be0.chunk.js.LICENSE.txt": "/day-planner-refactor/static/js/2.d98e8be0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0082c511.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.d98e8be0.chunk.js",
+    "static/css/main.bdb7051d.chunk.css",
+    "static/js/main.9f025ac6.chunk.js"
+  ]
+}
