@@ -13,7 +13,7 @@ Refactoring a Day Planner using Reactjs
   
   Navigate to the live site  
   
-  [Check it out here!](https://angeleefshaw.github.io/day-planner-refactor/ "Workday planner')
+  [Check it out here!](https://angeleefshaw.github.io/day-planner-refactor/ "Workday planner")
   
   ![Workout](./refactored-code/dp-img.png)
   
