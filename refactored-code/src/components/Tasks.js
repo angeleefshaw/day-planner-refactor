@@ -6,7 +6,7 @@ import '../styles/Tasks.css';
 
  function Tasks(props) {
    const [taskState, setTaskState] = useState([])
-   const [showtasks, setShowTasks] = useState()
+   const [showtasks, setShowTasks] = useState(false)
    const input = useRef();
 
      function handleSubmit(e) {
@@ -39,7 +39,8 @@ import '../styles/Tasks.css';
                     <ul className="task-list">
                       {taskState.map((task, b) => (
                       <li className="new-task" key={b}>{task}</li>
-                      ))}
+                      
+                      )) }
                     </ul>
                 </div>
               : true}
