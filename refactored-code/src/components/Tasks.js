@@ -33,17 +33,16 @@ import '../styles/Tasks.css';
             </Form.Row>
             <br></br>
             <div>
-              <button className="show-btn" onClick={() =>{setShowTasks({showtasks: !showtasks})}}>{showtasks? 'Hide' : 'Show'} Todo's </button>
+              <button className="show-btn" onClick={() =>{setShowTasks( !showtasks)}}>{showtasks? 'Hide' : 'Show'} Todo's </button>
               {showtasks?
                 <div className="col-10 smll-row task-list-container">
                     <ul className="task-list">
-                      {taskState.map((task, b) => (
-                      <li className="new-task" key={b}>{task}</li>
-                      
+                      {taskState.map((task, i) => (
+                      <li className="new-task" key={'task_' + i}>{task}</li>
                       )) }
                     </ul>
                 </div>
-              : true}
+              : null}
             </div>
           </Form>
       </div>
